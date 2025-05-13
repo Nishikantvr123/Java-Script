@@ -1,10 +1,10 @@
-let score = "33abc"
-let score1 = undefined
-// console.log(typeof score);
-// console.log(typeof (score));
+// let score = "33abc"
+// let score1 = undefined
+// // console.log(typeof score);
+// // console.log(typeof (score));
 
-let valueInNumber = Number(score)
-let valueInNumber1 = Number(score1)
+// let valueInNumber = Number(score)
+// let valueInNumber1 = Number(score1)
 // console.log(typeof (valueInNumber));
 // console.log(valueInNumber)
 
@@ -14,6 +14,15 @@ let valueInNumber1 = Number(score1)
 // "33abc"=> NaN
 // true => 1; false => 0
 
-let isLoggedIn = 1
-let booleanIsLoggedIn = Boolean(isLoggedIn)
-console.log(booleanIsLoggedIn);
+// let isLoggedIn = 1
+// let booleanIsLoggedIn = Boolean(isLoggedIn)
+// console.log(booleanIsLoggedIn);
+
+//String 
+
+let str1= "hello"
+let str2 = " nishikant"
+let str3 = str1 + str2 
+
+ContentVisibilityAutoStateChangeEvent.log(str3) // output -> hello nishikant 
+
