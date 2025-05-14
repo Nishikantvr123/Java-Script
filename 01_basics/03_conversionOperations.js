@@ -24,5 +24,5 @@ let str1= "hello"
 let str2 = " nishikant"
 let str3 = str1 + str2 
 
-ContentVisibilityAutoStateChangeEvent.log(str3) // output -> hello nishikant 
+console.log(str3) // output -> hello nishikant 
 
